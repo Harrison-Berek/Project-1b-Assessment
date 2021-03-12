@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    color: black; 
+}
+
+button {
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+}
